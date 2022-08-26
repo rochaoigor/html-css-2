@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <title>Videos</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+         <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta charset="UTF-8">
+        </head>
+
+         <body>
+ <h1> Inserindo videos hospedados localmente</h1>
+ <p>Este vídeo está hospedado no meu própio servidor.</p>
+
+ <!--Primeira Forma(forma mais simples)-->
+ <video src="midia/meu-video.m4v" width="560" controls></video>
+<Br>
+    <h1>Segunda Forma</h1>
+ <!--Segunda Forma(mais avançada)-->
+ <video width="560" poster="img/limoes-capa.png"controls>
+    <source src="midia/meu-video.mp4" type="video/mp4" target="_blank">
+    <source src="midia/meu-video.m4v" type="video/mp4">
+    <source src="midia/meu-video.webm" type="video/webm">
+    <source src="midia/meu-video.ogv" type="video/ogv">
+
+    <p>Seu navegador não tem compatibilidade</p>
+ </video>
+
+ <!--Terceira Forma-->
+
+ <h1>Inserindo videos do youtube </h1>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+         </body>
+
+         </html>

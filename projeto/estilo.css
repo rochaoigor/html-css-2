@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-image:linear-gradient(to right,#111D4A,#8789C0);
+}
+
+header {
+    background-color:#c2cae86a;
+    padding:10px;
+    margin:10px;
+    border-radius:20px;
+    
+    
+}
+
+nav {
+    background-color:#0c090da0;
+    border-radius:10px;
+    box-shadow:inset 5px 3px 7px 3px #c2cae86e;
+}
+
+nav > a {
+    text-decoration:none;
+    color:#C2CAE8;
+    font-family:'Open Sans', sans-serif;;
+    font-weight:bold;
+    font-size:1.5em;
+    margin-right:50px;
+    padding:10px;
+    
+    }
+    
+    nav >a:hover{
+        color:yellow;
+        text-decoration:underline;
+    }
+
+
+main {
+    min-width:320px;
+    max-width:1000px;
+    background-color:#C2CAE8;
+    margin:auto;
+    padding:10px;
+    border-radius:8px;
+    box-shadow: 5px 5px 7px 3px #0000006e;
+}
+
+main img {
+    width:100%;
+}
+
+
+
+#principal {
+    text-align:center;
+    font-size:3em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:#0C090D;
+}
+
+h2 {
+    font-family:'PT Sans Narrow', sans-serif;
+}
+
+
+.subtitulo {
+    text-align:center;
+    color:#0C090D;
+}
+
+p{ 
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+    text-indent:2em;
+    margin:5px;
+    color:#0C090D;
+    font-weight:bold;
+    padding:5px;
+}
+
+
+
+.conteudo-principal {
+    display:inline-flexbox;
+}
+
+nav > img {
+    margin-left:10px;
+}
+    
+    
+
+aside > img {
+    border:1px solid #c2cae86a;
+    border-radius:8px;
+    box-shadow: 1px 5px 7px 1px #0000006e;
+    
+    
+}
+
+footer {
+    background-color:#c2cae86a;
+    
+    padding:1px;
+    border-radius:10px;
+}
+

@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+}
+
+h1 {
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: tahoma;
+    font-weight:bold;
+    font-size:20px;
+    text-align:justify;
+}
+
+h2 {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+}
+
+
+
