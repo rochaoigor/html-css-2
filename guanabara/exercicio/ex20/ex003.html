@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+        <title>I-Frame</title>
+        <style>
+            body {
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            iframe {
+                width:50vw;
+                height:400px;
+                border:2px solid black;
+                display:block;
+                margin:auto;
+            }
+        </style>
+        </head>
+        <body>
+            <h1>Uso de Iframe</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis rem perspiciatis repellat id magnam harum, doloremque sint rerum eum sit maxime eos voluptates nisi labore facere placeat aperiam quaerat iusto!</p>
+            <ul>
+                <li><a href="pagina001.html"target="frame">Primeira Página</a></li>
+                <li><a href="ex002.html" target="frame">Segunda Página</a></li>
+                <li><a href="ex001.html" target="frame">Terceira Pagina</a></li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur illo accusamus minima inventore cumque, nihil nam? Officiis debitis suscipit enim, sit expedita repudiandae? Asperiores corporis numquam nihil delectus eos?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ipsa eligendi voluptates. Dolorem repudiandae corporis, provident nobis voluptas, recusandae sequi corrupti officiis modi, eligendi molestias architecto alias quae odio at.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum impedit ea nemo culpa autem inventore eligendi molestiae, sunt doloremque nam accusamus dolorum commodi adipisci ducimus iusto id totam quis quia.
+            </p>
+            <iframe srcdoc="<h1>Escolha um dos links acima</h1>" name="frame">
+                <p>Infelizmente seu Navegador não é compativel com isso.</p>
+            </iframe>
+        </body>
