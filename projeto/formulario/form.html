@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Titulo da Página</h1>
+        <p>Subtitulo da Página</p>
+    </header>
+    <main>
+        <section>
+        <h1>Faça Seu Cadastro</h1>
+        <form action="cadastro.php" autocomplete="no" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label><br>
+                <input type="text" name="nome" id="inome" size="10"><br>
+                <label for="isobrenome">Sobrenome:</label><br>
+                <input type="text" name="nome" id="isobrenome" size="15"><br>
+                <label for="iemail">E-Mail</label><br>
+                <input type="email" name="email" id="iemail" size="18"><br>
+                <label for="itel">Telefone</label><br>
+                <input type="tel" name="tel" id="itel"><br>
+                <label for="iestad">Estado</label><br>
+                <select>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AMA">Amazonas</option>
+                    <option value="RO">Roraima</option>
+                </select>
+                
+            </p>
+           </fieldset>
+           <br>
+           <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexom">
+            <label for="isexom">Masculino</label>
+            <input type="radio" name="sexo" id="isexof">
+            <label for="isexof">Feminino</label>
+           </fieldset>
+           <br>
+           <fieldset>
+            <legend>Profissão</legend>
+            <label for="iprof">Profissão</label>
+            <input type="text"name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="PROF">Professor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="ADM">Administrador</option>
+                <option value="ADV">Advogado</option>
+            </datalist>
+        </fieldset>
+           <br>
+           <fieldset>
+            <legend>Escolha um Usuário e Senha</legend>
+           </fieldset>
+        </form>
+        </section>
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Cancelar">
+    </main>
+    
+</body>
+</html>

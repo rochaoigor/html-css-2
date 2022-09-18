@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário Select/OPTGROUP/</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <optgroup label for="Região Sudeste">
+                <option value="" selected>---Escolha Aqui---</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup>
+            <optgroup label for="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PA">Paraíba</option>
+                <option value="SE">Sergipe</option>
+                <option value="CE">Ceará</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+     <input type="text" name="profissao" id="iprof" list="lstprof">
+     <datalist id="lstprof">
+        <option value="ADM">Administrador</option>
+        <option value="Prof">Professor</option>
+        <option value="DEV">Desenvolvedor</option>
+     </datalist>
+    </p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="cancelar">
+</form>
+</body>
+</html>
