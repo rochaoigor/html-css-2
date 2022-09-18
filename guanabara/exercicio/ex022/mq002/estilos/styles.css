@@ -6,3 +6,20 @@
     margin:0;
     padding:0;
 }
+
+
+html,body {
+    min-width:100vh;
+    min-height:100vh;
+    background-color:blue;
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    
+
+}
+
+h1 {
+    color:whitesmoke;
+    text-shadow:3px 4px 1px black;
+}

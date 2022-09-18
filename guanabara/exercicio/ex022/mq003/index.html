@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /*declarações gerais*/
+        
+     @media all {   
+        * {
+          margin:0;
+           padding:0;
+}
+
+
+html,body {
+    min-width:100vh;
+    min-height:100vh;
+    background-color:blue;
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    
+
+}
+
+h1 {
+    color:whitesmoke;
+    text-shadow:3px 4px 1px black;
+}
+     }
+/*declarações retrato*/
+@media screen and (orientation:portrait) {
+    * {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:url("./img/cev-portrait.jpg");
+    background-position:center bottom;
+}
+}
+/*declarações de modo paisagem*/
+@media screen and (orientation:landscape){
+    * {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-image:url("./img/cev-landscape.jpg");
+   background-position:left bottom;
+}
+}
+    </style>
+</head>
+<body>
+    <h1>Mude a Orientação do seu Dispositivo</h1>
+    
+</body>
+</html>
