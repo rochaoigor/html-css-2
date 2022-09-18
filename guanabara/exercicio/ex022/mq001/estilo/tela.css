@@ -10,4 +10,34 @@
 html {
     font-family:Arial, Helvetica, sans-serif;
     font-size:1em;
+    line-height:1.5em;
+    text-indent:1.2em;
+}
+
+header {
+    padding:50px;
+    background-color:lightgrey;
+}
+
+header h1 {
+    padding-bottom:20px;
+    text-align:center;
+}
+menu li {
+    background-color:darkgrey;
+    display:inline-block;
+    padding:10px;
+    align-items:center;
+}
+menu ul {
+    background-color:gray;
+    list-style: none;
+}
+
+article {
+    padding-top:20px;
+    text-align:justify;
+    width:600px;
+    display:block;
+    margin:auto;
 }
