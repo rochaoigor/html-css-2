@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <title>Menu Responsivo</title>
+    
+</head>
+<body onresize="tamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <span id="hamburguer" class="material-symbols-outlined" onclick="clickmenu()">
+            menu_open
+            </span>
+        <nav id="items">
+            <ul>
+                <li><a href="#">Opção1</a></li>
+                <li><a href="#">Opção2</a></li>
+                <li><a href="#">Opção3</a></li>
+                <li><a href="#">Opção4</a></li>
+                <li><a href="#">Opção5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, molestias. Magnam, soluta recusandae possimus reiciendis perferendis hic, nihil nemo cum iste dolor tempore tempora suscipit praesentium velit illum, ex explicabo.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, unde ipsam illum quam cupiditate dolores cumque, sunt exercitationem inventore, odit alias. Ut fugiat suscipit eaque, repudiandae placeat nisi aperiam obcaecati?
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis voluptatem voluptas. Quaerat fuga, quibusdam deleniti, libero maxime aliquid suscipit praesentium et nostrum repellat dolorum magnam voluptate, delectus quisquam ut!
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickmenu() {
+           if (items.style.display== "block") {
+            items.style.display = "none"
+           }
+           else {
+            items.style.display = "block"
+           }
+        }
+        function tamanho() {
+            if (window.innerwidth >= 768) {
+                items.style.display = "block"
+            }else {
+                items.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@media screen and (min-width:768px) and (max-width:992px){
+  
+}
+
+@media screen and (min-width:768px) {
+    #hamburguer {
+        display:none;
+    }
+ nav {
+    display:block;
+ }
+ nav ul li {
+    display:inline-block;
+ }
+ main {
+    width:768px;
+ }
+}
+
